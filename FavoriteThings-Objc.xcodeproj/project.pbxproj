@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49C5EB5C1A829D9400E608F6 /* FavoriteThingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C5EB5B1A829D9400E608F6 /* FavoriteThingsViewController.m */; };
 		71DE96EC19A8D5360021E6F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DE96EB19A8D5360021E6F7 /* main.m */; };
 		71DE96EF19A8D5360021E6F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DE96EE19A8D5360021E6F7 /* AppDelegate.m */; };
 		71DE96F119A8D5360021E6F7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71DE96F019A8D5360021E6F7 /* Images.xcassets */; };
@@ -24,6 +25,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		49C5EB5A1A829D9400E608F6 /* FavoriteThingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoriteThingsViewController.h; sourceTree = "<group>"; };
+		49C5EB5B1A829D9400E608F6 /* FavoriteThingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoriteThingsViewController.m; sourceTree = "<group>"; };
 		71DE96E619A8D5360021E6F7 /* FavoriteThings-Objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FavoriteThings-Objc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71DE96EA19A8D5360021E6F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71DE96EB19A8D5360021E6F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -76,6 +79,8 @@
 			children = (
 				71DE96ED19A8D5360021E6F7 /* AppDelegate.h */,
 				71DE96EE19A8D5360021E6F7 /* AppDelegate.m */,
+				49C5EB5A1A829D9400E608F6 /* FavoriteThingsViewController.h */,
+				49C5EB5B1A829D9400E608F6 /* FavoriteThingsViewController.m */,
 				71DE96F019A8D5360021E6F7 /* Images.xcassets */,
 				71DE96E919A8D5360021E6F7 /* Supporting Files */,
 			);
@@ -205,6 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49C5EB5C1A829D9400E608F6 /* FavoriteThingsViewController.m in Sources */,
 				71DE96EF19A8D5360021E6F7 /* AppDelegate.m in Sources */,
 				71DE96EC19A8D5360021E6F7 /* main.m in Sources */,
 			);
@@ -380,6 +386,7 @@
 				71DE970219A8D5360021E6F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71DE970319A8D5360021E6F7 /* Build configuration list for PBXNativeTarget "FavoriteThings-ObjcTests" */ = {
 			isa = XCConfigurationList;
@@ -388,6 +395,7 @@
 				71DE970519A8D5360021E6F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
